@@ -1,0 +1,80 @@
+@use "../variables" as variable;
+
+.container {
+    height: 50px;
+    background-color: black;
+    color: variable.$nav-font-color;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+
+.listItem {
+    display: inline;
+    font-size: 16px;
+    font-weight: 500;
+    color: variable.$nav-font-color;
+    cursor: pointer;
+}
+
+.listItemLink {
+    padding: 16px 18px;
+    &:hover,
+    &:focus-within {
+        background-color: variable.$primary-color;
+    }
+}
+
+.dropdown {
+    display: inline;
+    font-size: 16px;
+    font-weight: 500;
+    color: variable.$nav-font-color;
+    cursor: pointer;
+    padding: 16px 18px;
+    position: relative;
+
+    &:hover,
+    &:focus-within {
+        background-color: variable.$primary-color;
+        .dropdownMenu {
+            opacity: 1;
+            transform: rotateX(0) translateX(-50%);
+            visibility: visible;
+        }
+    }
+
+    .dropdownMenu {
+        background-color: #fff;
+        border-radius: 4px;
+        box-shadow: 0 0.15em 0.25em rgba(black, 0.25);
+        padding: 0px;
+        min-width: 15ch;
+        list-style: none;
+        position: absolute;
+        top: calc(100% + 0.05rem);
+        left: 50%;
+        //transform: translateX(-50%);
+        transform: rotateX(-90deg) translateX(-50%);
+        transform-origin: top center;
+        opacity: 0.3;
+        transition: 280ms all ease-out;
+        a {
+            color: #444;
+            display: block;
+            padding: 0.5em;
+            text-align: center;
+        }
+        .dropdownItem {
+            padding: 3px;
+            &:hover {
+                background-color: variable.$primary-color;
+            }
+        }
+    }
+
+    .dropdownTitle {
+        margin-right: 5px;
+    }
+}
