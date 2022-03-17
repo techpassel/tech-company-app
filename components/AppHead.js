@@ -7,7 +7,7 @@ const AppHead = ({title, description}) => {
         <Head>
         <title>{title}</title>
         <meta name="description" content={description} />
-        <link rel="icon" href="/technower.ico" />
+        <link rel="icon" href="/images/technower.ico" />
       </Head>
     </div>
   )

@@ -1,0 +1,56 @@
+@use "./variables" as variable;
+.container {
+    display: flex;
+}
+
+.card {
+    flex: 1;
+    // margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 1;
+}
+
+.firstCard {
+    padding: 100px;
+    padding-right: 0px;
+}
+
+.secondCard{
+    padding: 60px 0px;
+    margin-right: 50px;
+}
+
+.title {
+    margin-bottom: 20px;
+}
+
+.tagline {
+    font-family: 'Kaushan Script';
+    font-size: 40px;
+    color: variable.$secondary-color;
+}
+
+.brand {
+    font-family: 'Kaushan Script';
+    font-size: 60px;
+    color: variable.$primary-color;
+}
+
+.desc {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.button {
+    border: none;
+    background-color: variable.$secondary-color;
+    color: variable.$nav-font-color;
+    font-size: 20px;
+    width: 100px;
+    font-weight: bold;
+    padding: 12px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}

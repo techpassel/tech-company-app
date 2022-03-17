@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import styles from '../styles/layout/Navbar.module.scss'
-import logo from '../public/Technower_name_logo.png'
+import logo from '../public/images/Technower_name_logo.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCaretDown } from '@fortawesome/free-solid-svg-icons'
 
@@ -35,7 +35,9 @@ const Navbar = () => {
                     </ul>
                 </li>
                 <li className={styles.listItem}>
-                    <Link href="/contact"><a className={styles.listItemLink}>Contact</a></Link>
+                    <Link href="/contact" passHref>
+                        <button className={styles.signinButton}>Sign In</button>
+                    </Link>
                 </li>
             </ul>
         </div>

@@ -26,6 +26,18 @@
     }
 }
 
+.signinButton {
+    padding: 12px 15px;
+    background-color: variable.$primary-color;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: variable.$nav-font-color;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
 .dropdown {
     display: inline;
     font-size: 16px;
@@ -55,7 +67,8 @@
         position: absolute;
         top: calc(100% + 0.05rem);
         left: 50%;
-        //transform: translateX(-50%);
+        z-index:999;
+        // transform: translateX(-50%);
         transform: rotateX(-90deg) translateX(-50%);
         transform-origin: top center;
         opacity: 0.3;
