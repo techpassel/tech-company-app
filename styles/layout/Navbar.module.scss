@@ -15,7 +15,7 @@
 .listItem {
     display: inline;
     font-size: 2.8vmin;
-    font-weight: 500;
+    font-weight: 400;
     color: variable.$nav-font-color;
     cursor: pointer;
 }
@@ -29,12 +29,12 @@
 }
 
 .signinButton {
-    padding: 2.1vmin 2vmin;
+    padding: 1.8vmin 2vmin;
     background-color: variable.$primary-color;
     border: none;
     border-radius: 1vmin;
     font-size: 2.8vmin;
-    font-weight: bold;
+    font-weight: 600;
     color: variable.$nav-font-color;
     cursor: pointer;
     margin-left: 5px;
@@ -43,7 +43,7 @@
 .dropdown {
     display: inline;
     font-size: 2.8vmin;
-    font-weight: 500;
+    font-weight: 400;
     color: variable.$nav-font-color;
     cursor: pointer;
     padding: 2.4vmin 2vmin;
