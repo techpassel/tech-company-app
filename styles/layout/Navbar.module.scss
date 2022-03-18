@@ -1,25 +1,27 @@
 @use "../variables" as variable;
 
 .container {
-    height: 50px;
+    height: 8vmin;
     background-color: black;
     color: variable.$nav-font-color;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 50px;
+    padding: 0 8vmin;
+    position: relative;
+    z-index: 50;
 }
 
 .listItem {
     display: inline;
-    font-size: 16px;
+    font-size: 2.8vmin;
     font-weight: 500;
     color: variable.$nav-font-color;
     cursor: pointer;
 }
 
 .listItemLink {
-    padding: 16px 18px;
+    padding: 2.4vmin 2vmin;
     &:hover,
     &:focus-within {
         background-color: variable.$primary-color;
@@ -27,11 +29,11 @@
 }
 
 .signinButton {
-    padding: 12px 15px;
+    padding: 2.1vmin 2vmin;
     background-color: variable.$primary-color;
     border: none;
-    border-radius: 10px;
-    font-size: 16px;
+    border-radius: 1vmin;
+    font-size: 2.8vmin;
     font-weight: bold;
     color: variable.$nav-font-color;
     cursor: pointer;
@@ -40,11 +42,11 @@
 
 .dropdown {
     display: inline;
-    font-size: 16px;
+    font-size: 2.8vmin;
     font-weight: 500;
     color: variable.$nav-font-color;
     cursor: pointer;
-    padding: 16px 18px;
+    padding: 2.4vmin 2vmin;
     position: relative;
 
     &:hover,
@@ -61,13 +63,13 @@
         background-color: #fff;
         border-radius: 4px;
         box-shadow: 0 0.15em 0.25em rgba(black, 0.25);
-        padding: 0px;
+        padding: 0;
         min-width: 15ch;
         list-style: none;
         position: absolute;
         top: calc(100% + 0.05rem);
         left: 50%;
-        z-index:999;
+        z-index: 999;
         // transform: translateX(-50%);
         transform: rotateX(-90deg) translateX(-50%);
         transform-origin: top center;
@@ -88,6 +90,6 @@
     }
 
     .dropdownTitle {
-        margin-right: 5px;
+        margin-right: 1vmin;
     }
 }
