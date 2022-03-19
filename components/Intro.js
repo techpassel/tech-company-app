@@ -10,7 +10,7 @@ const Intro = () => {
     return (
         <div className={styles.container}>
             <Circle width="90vmin" height="90vmin" opacity="0.2" top="-45vmin" left="-45vmin" />
-            <Circle width="150vmin" height="150vmin" opacity="0.5" top="-29vmin" right="-87vmin" />
+            <Circle backgroundColor="#16b800" width="150vmin" height="150vmin" opacity="0.4" top="-29vmin" right="-87vmin" />
             <div className={styles.card}>
                 <div className={styles.brandContainer}>
                     <div className={styles.title}>

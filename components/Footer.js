@@ -23,7 +23,7 @@ const Footer = () => {
       </div>
       <div className={styles.cardS}>
         <div className={styles.cardItem} style={{ marginBottom: "2vmin" }}>
-          <FontAwesomeIcon icon={faLocationDot} /> AM Tech Park, First Floor, Sector 126, Noida, UP, India, 201301
+          <FontAwesomeIcon icon={faLocationDot} /> Aman Tech Park, First Floor, Sector 126, Noida, UP, India - 201301
         </div>
         <div className={styles.cardItem}>
           <FontAwesomeIcon icon={faEnvelope} /> contact@technower.com <br />

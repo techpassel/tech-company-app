@@ -3,7 +3,7 @@
 .container {
     height: 8vmin;
     background-color: black;
-    color: variable.$snowwhite;
+    color: variable.$whitesmoke;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -16,7 +16,7 @@
     display: inline;
     font-size: 2.8vmin;
     font-weight: 400;
-    color: variable.$snowwhite;
+    color: variable.$whitesmoke;
     cursor: pointer;
 }
 
@@ -35,7 +35,7 @@
     border-radius: 1vmin;
     font-size: 2.8vmin;
     font-weight: 600;
-    color: variable.$snowwhite;
+    color: variable.$whitesmoke;
     cursor: pointer;
     margin-left: 5px;
 }
@@ -44,7 +44,7 @@
     display: inline;
     font-size: 2.8vmin;
     font-weight: 400;
-    color: variable.$snowwhite;
+    color: variable.$whitesmoke;
     cursor: pointer;
     padding: 2.4vmin 2vmin;
     position: relative;
