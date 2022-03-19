@@ -11,7 +11,7 @@ const Navbar = () => {
         <div className={styles.container}>
             <Link href="/">
                 <a>
-                    <Image src={logo} alt="Technower" width="140vmin" height="35vmin" />
+                    <Image src={logo} alt="Technower" width="160vmin" height="35vmin" />
                 </a>
             </Link>
             <ul className={styles.list}>
