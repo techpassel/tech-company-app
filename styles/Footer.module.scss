@@ -1,19 +1,19 @@
 @use "./variables" as variable;
 
 .container {
-    height: 35vmin;
+    min-height: 35vmin;
     border-top: 3px solid black;
     display: flex;
     align-items: center;
     justify-content: space-around;
     font-size: 3vmin;
-    padding: 15vmin;
+    padding: 8vmin 15vmin;
     background-color: black;
     color: variable.$snowwhite;
 }
 
 .linkTitle {
-    padding-top: 2vmin;
+    // padding-top: 2vmin;
     font-size: 4vmin;
     text-decoration: underline;
 }
@@ -24,7 +24,7 @@
 }
 
 .linkText {
-    margin-right: 3vmin;
+    margin-right: 1vmin;
 }
 
 .cardL {
