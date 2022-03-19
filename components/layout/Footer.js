@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
-import styles from '../styles/Footer.module.scss'
+import styles from '../../styles/layout/Footer.module.scss'
 
 const Footer = () => {
   return (

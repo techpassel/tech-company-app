@@ -1,5 +1,5 @@
 import styles from '../styles/Home.module.scss'
-import AppHead from '../components/AppHead'
+import AppHead from '../components/layout/AppHead'
 import Intro from '../components/Intro'
 import Info from '../components/Info'
 import { data, users } from '../data'

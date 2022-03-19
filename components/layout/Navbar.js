@@ -1,8 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
-import styles from '../styles/layout/Navbar.module.scss'
-import logo from '../public/images/Technower_name_logo.png'
+import styles from '../../styles/layout/Navbar.module.scss'
+import logo from '../../public/images/Technower_name_logo.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCaretDown } from '@fortawesome/free-solid-svg-icons'
 
