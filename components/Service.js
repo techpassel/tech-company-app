@@ -6,7 +6,7 @@ import styles from '../styles/Service.module.scss'
 const Service = ({ services }) => {
     return (
         <div className={styles.container}>
-            <h1 className={styles.title}>How you can use this platform?</h1>
+            <h1 className={styles.title}>How can you use this platform?</h1>
             <h1 className={styles.subtitle}>You can use this platform for following purposes.</h1>
             <div className={styles.services}>
                 {services.map((service, i) => (

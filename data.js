@@ -10,14 +10,14 @@ export const data = [
     {
         id: 2,
         name: "discussion-assistance",
-        title: "Discussion and Assistance",
+        title: "Discussion and Getting Assistance",
         desc: "Simply drag and drop photos and videos into your workspace to automatically add them to your Collab Cloud library.",
         photo: "undraw_discussion.svg",
     },
     {
         id: 3,
         name: "exhibit",
-        title: "Exhibit Knowledge and skills",
+        title: "Exhibition of Knowledge and skills",
         desc: "You can use this platform to showcase your knowledge and skills by writing blogs, solving problems posted in the community and by sharning your knowledge with the world.",
         photo: "undraw_professor.svg",
     },
@@ -33,8 +33,8 @@ export const data = [
 export const users = [
     {
         id: 1,
-        logo: "yahoo.png",
-        avatar: "user1.jpeg",
+        logo: "Technower_logo.png",
+        avatar: "avatar.png",
         comment:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Utconsectetur veniam fugiat labore quaerat possimus laudantium.",
         name: "Harold Brown",
@@ -42,8 +42,8 @@ export const users = [
     },
     {
         id: 2,
-        logo: "google.png",
-        avatar: "user2.jpeg",
+        logo: "Technower_logo.png",
+        avatar: "avatar.png",
         comment:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Utconsectetur veniam fugiat labore quaerat possimus laudantium.",
         name: "Anna Taylor",
@@ -51,8 +51,8 @@ export const users = [
     },
     {
         id: 3,
-        logo: "facebook.png",
-        avatar: "user3.jpeg",
+        logo: "Technower_logo.png",
+        avatar: "avatar.png",
         comment:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Utconsectetur veniam fugiat labore quaerat possimus laudantium.",
         name: "James Garry",
