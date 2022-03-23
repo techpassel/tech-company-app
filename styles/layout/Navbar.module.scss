@@ -21,7 +21,7 @@
 }
 
 .listItemLink {
-    padding: 2.4vmin 2vmin;
+    padding: 2.6vmin 2vmin;
     &:hover,
     &:focus-within {
         background-color: variable.$primary-color;
@@ -46,7 +46,7 @@
     font-weight: 400;
     color: variable.$whitesmoke;
     cursor: pointer;
-    padding: 2.4vmin 2vmin;
+    padding: 2.6vmin 2vmin;
     position: relative;
 
     &:hover,

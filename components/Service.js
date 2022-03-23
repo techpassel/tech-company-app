@@ -10,7 +10,7 @@ const Service = ({ services }) => {
             <h1 className={styles.subtitle}>You can use this platform for following purposes.</h1>
             <div className={styles.services}>
                 {services.map((service, i) => (
-                    <Link passHref key={i} href={`/products/${service.name}`}>
+                    <Link passHref key={i} href={`/features/${service.name}`}>
                         <div className={styles.service}>
                             <div className={styles.desc}>{service.desc}</div>
                             <span className={styles.cat}>{service.title}</span>
