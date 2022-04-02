@@ -36,10 +36,11 @@
     flex: 1;
     height: 8vmin;
     padding-left: 10px;
+    display: flex;
 }
 
 .inputS:first-child {
-    margin-right: 5px;
+    margin-right: 0.5vmin;
 }
 
 .inputL {

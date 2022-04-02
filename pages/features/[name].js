@@ -8,19 +8,22 @@ const Feature = ({ feature }) => {
     return (
         <div className={styles.container}>
             <div className={styles.cardL}>
-                {feature.images.map(img => (
-                    <div key={img.id} className={styles.imgContainer}>
-                        {/* to use external images we need to set "images: { domains: ['images.pexels.com']}" 
+                <div className={styles.imageCard}>
+                    {feature.images.map(img => (
+                        <div key={img.id} className={styles.imgContainer}>
+                            {/* to use external images we need to set "images: { domains: ['images.pexels.com']}" 
                         in 'next.config.js' */}
-                        <Image src={img.url}
-                            alt={`img-${img.id}`}
-                            width="100%"
-                            height="100%"
-                            objectFit="cover"
-                            layout="responsive"
-                        />
-                    </div>
-                ))}
+                            <Image src={img.url}
+                                className={styles.image}
+                                alt={`img-${img.id}`}
+                                width="100%"
+                                height="100%"
+                                objectFit="cover"
+                                layout="responsive"
+                            />
+                        </div>
+                    ))}
+                </div>
             </div>
             <div className={styles.cardS}>
                 <h1 className={styles.title}>{feature.title}</h1>

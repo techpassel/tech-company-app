@@ -11,7 +11,7 @@ const contact = () => {
             <div className={styles.innerContainer}>
                 <h1 className={styles.title}>GET IN TOUCH</h1>
                 <form className={styles.form}>
-                    <input className={styles.inputS} placeholder="Username" />
+                    <input className={styles.inputS} placeholder="Name" />
                     <input className={styles.inputS} placeholder="Phone" />
                     <input className={styles.inputL} placeholder="Email" />
                     <input className={styles.inputL} placeholder="Subject" />
