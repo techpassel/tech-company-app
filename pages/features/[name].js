@@ -3,10 +3,12 @@ import Link from 'next/link';
 import React from 'react';
 import { data } from '../../data';
 import styles from '../../styles/Feature.module.scss';
+import AppHead from '../../components/layout/AppHead'
 
 const Feature = ({ feature }) => {
     return (
         <div className={styles.container}>
+            <AppHead title="Features" description="Features of technower." />
             <div className={styles.cardL}>
                 <div className={styles.imageCard}>
                     {feature.images.map(img => (

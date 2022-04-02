@@ -9,8 +9,8 @@ import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 const Intro = () => {
     return (
         <div className={styles.container}>
-            <Circle width="90vmin" height="90vmin" opacity="0.2" top="-45vmin" left="-45vmin" />
-            <Circle backgroundColor="#16b800" width="150vmin" height="150vmin" opacity="0.4" top="-29vmin" right="-87vmin" />
+            <Circle backgroundColor="#16b800" width="90vmin" height="90vmin" opacity="0.7" top="-50vmin" left="-50vmin" />
+            <Circle width="150vmin" height="150vmin" opacity="0.7" top="-29vmin" right="-87vmin" />
             <div className={styles.card}>
                 <div className={styles.brandContainer}>
                     <div className={styles.title}>
@@ -27,7 +27,7 @@ const Intro = () => {
             </div>
             <div className={styles.card}>
                 <div className={styles.imageContainer}>
-                    <Image src={sideImage} alt="Technower image" className={'image'} />
+                    <Image src={sideImage} alt="Technower image" />
                 </div>
             </div>
         </div>

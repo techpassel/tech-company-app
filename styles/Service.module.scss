@@ -25,7 +25,7 @@
 .service {
     width: 90vmin;
     height: 90vmin;
-    background-color: rgba(250, 15, 38, 0.2);
+    background-color: rgba(250, 15, 38, 0.7);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -51,7 +51,7 @@
     left: 10px;
     z-index: 999;
     text-transform: uppercase;
-    color: gray;
+    color: black;
     letter-spacing: 5px;
     font-weight: 400;
     font-size: 3vmin;
@@ -72,7 +72,7 @@
     position: absolute;
     z-index: 999;
     font-size: 3vmin;
-    background-color: rgba(22, 184, 0, 0.4);
+    background-color: rgba(22, 184, 0, 0.7);
     border-radius: 10px;
     padding: 20px;
     font-weight: 500;

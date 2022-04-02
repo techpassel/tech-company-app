@@ -7,7 +7,7 @@ const Testimonial = ({ users }) => {
     return (
         <div className={styles.container}>
             <div className={styles.titleContainer}>
-                <Circle backgroundColor="#16b800" width="90vmin" height="90vmin" opacity="0.4" top="-70vh" />
+                <Circle backgroundColor="#16b800" width="90vmin" height="90vmin" opacity="0.7" top="-70vh" />
                 <h1 className={styles.title}>Testimonials</h1>
             </div>
             <div className={styles.wrapper}>
