@@ -10,7 +10,11 @@ const Footer = () => {
   return (
     <div className={styles.container}>
       <div className={styles.cardL}>
-        <Image src="/images/Technower_name_logo.png" alt='Technower logo' width="210vmin" height="45vmin" />
+        <Link href="/">
+          <a>
+            <Image src="/images/Technower_name_logo.png" alt='Technower logo' width="210vmin" height="45vmin" />
+          </a>
+        </Link>
         <p>Have any question, query or doubt?</p>
         <div className={styles.linkTitle}>
           <Link href='/contact' passHref>
